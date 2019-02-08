@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="crm.Trouble_TicketTest.CreateTroubleTicketTest">
+        <methods>
+          <include name="createTroubletickettest"/>
+        </methods>
+      </class> <!-- crm.Trouble_TicketTest.CreateTroubleTicketTest -->
+      <class name="crm.invoicetest.Createinvoice_withoutmandatoryfieldTest">
+        <methods>
+          <include name="createTroubletickettest"/>
+        </methods>
+      </class> <!-- crm.invoicetest.Createinvoice_withoutmandatoryfieldTest -->
+      <class name="crm.invoicetest.CreateinvoiceTest">
+        <methods>
+          <include name="createTroubletickettest"/>
+        </methods>
+      </class> <!-- crm.invoicetest.CreateinvoiceTest -->
+      <class name="crm.masseditTest.MasseditTroubleTicketTest">
+        <methods>
+          <include name="configBc"/>
+          <include name="createTroubletickettest"/>
+        </methods>
+      </class> <!-- crm.masseditTest.MasseditTroubleTicketTest -->
+      <class name="crm.invoicetest.EndToEndInvoiceTest">
+        <methods>
+          <include name="EndtoendprocessofCreateinvoice"/>
+        </methods>
+      </class> <!-- crm.invoicetest.EndToEndInvoiceTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
